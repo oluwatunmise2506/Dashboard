@@ -1,0 +1,46 @@
+#outer_div {
+    height:500px;
+    padding-top:40px;
+    background-color:whitesmoke;
+    padding-left:30px;
+}
+
+#inner_div {
+    height:40px;
+    background-color:rgb(188, 210, 188);
+    
+}
+
+
+#first_text {
+    background-color:green;
+    border-radius:3px;
+    padding-left:4px;
+    padding-right:10px;
+}
+
+#text_div {
+    padding-top:8px;
+    padding-left:60px;
+}
+
+#second_text {
+    padding-left:6px;
+
+}
+
+#head_text2 {
+    text-align:right;
+}
+
+#square1 {
+    width:200px;
+    height:150px;
+    background-color: dodgerblue;
+}
+
+#square2 {
+    width:200px;
+    height:150px;
+    background-color: deepskyblue;
+}
