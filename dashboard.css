@@ -1,5 +1,5 @@
 #outer_div {
-    height:500px;
+    height:600px;
     padding-top:40px;
     background-color:whitesmoke;
     padding-left:30px;
@@ -33,14 +33,84 @@
     text-align:right;
 }
 
-#square1 {
-    width:200px;
-    height:150px;
+.flex_container{
+    display: flex;
+    background-color:whitesmoke;
+    justify-content:space-around;
+}
+
+.flex_container > div {
+    height: 180px;
+    width: 200px;
+    margin-top:40px;
+    text-align: left;
+    color: white;
+    text-decoration: double;  
+    padding-top: 19px;  
+}       
+
+#square1{
     background-color: dodgerblue;
 }
 
-#square2 {
-    width:200px;
-    height:150px;
-    background-color: deepskyblue;
+#square2{
+    background-color: skyblue;
+}
+
+#square3{
+    background-color: gold;
+}
+
+#square4{
+    background-color:coral;
+}
+
+.theFlexContainer{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
+
+.theFlexContainer > div {
+    width: 200px;
+    height:80px;
+    text-align: center;
+    color: white;
+    text-decoration: solid;
+    padding-top: 40px;
+    font-weight:bolder;
+    font-size: xx-large;
+}
+
+#rec1{
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rec2{
+    background-color: dodgerblue;
+}
+
+#rec3{
+    background-color: mediumblue;
+}
+
+#rec4{
+    background-color:darkorange;
+}
+
+.my_flex_container{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
+
+.my_flex_container > div{
+    width: 200px;
+    height:80;
+    word-spacing:1.8cm;
+    background-color: white;
+    font-size: small;
+    color:grey;
+    padding-top: 20px;
 }
