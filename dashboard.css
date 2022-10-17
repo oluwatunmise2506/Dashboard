@@ -73,18 +73,18 @@
 
 .theFlexContainer > div {
     width: 200px;
-    height:80px;
+    height:90px;
     text-align: center;
     color: white;
     text-decoration: solid;
-    padding-top: 40px;
+    padding-top: 30px;
     font-weight:bolder;
     font-size: xx-large;
 }
 
 #rec1{
     background-color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 #rec2{
