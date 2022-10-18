@@ -8,6 +8,7 @@
 #inner_div {
     height:40px;
     background-color:rgb(188, 210, 188);
+    border-radius: 6px;
     
 }
 
@@ -36,7 +37,7 @@
 .flex_container{
     display: flex;
     background-color:whitesmoke;
-    justify-content:space-around;
+    
 }
 
 .flex_container > div {
@@ -46,29 +47,40 @@
     text-align: left;
     color: white;
     text-decoration: double;  
-    padding-top: 19px;  
-}       
+    padding-top: 19px;
+    padding-left: 20px;  
+    
+    
+}
+   
 
 #square1{
     background-color: dodgerblue;
+    margin-left:90px;
+
 }
 
 #square2{
     background-color: skyblue;
+    margin-left:50px;
 }
+
 
 #square3{
     background-color: gold;
+    margin-left:50px;
 }
+
 
 #square4{
     background-color:coral;
+    margin-left:50px;
 }
 
 .theFlexContainer{
     display: flex;
     background-color: whitesmoke;
-    justify-content: space-around;
+    
 }
 
 .theFlexContainer > div {
@@ -80,29 +92,38 @@
     padding-top: 30px;
     font-weight:bolder;
     font-size: xx-large;
+    padding-left:20px;
+    
 }
+
+
 
 #rec1{
     background-color: blue;
+    margin-left: 90px;
     
 }
 
 #rec2{
     background-color: dodgerblue;
+    margin-left:50px;
 }
 
 #rec3{
     background-color: mediumblue;
+    margin-left:50px;
 }
 
 #rec4{
     background-color:darkorange;
+    margin-left:50px;
 }
 
 .my_flex_container{
     display: flex;
     background-color: whitesmoke;
-    justify-content: space-around;
+    
+
 }
 
 .my_flex_container > div{
@@ -113,4 +134,15 @@
     font-size: small;
     color:grey;
     padding-top:15px;
+    padding-left:20px;
 }
+
+.plainsquare{
+    margin-left:50px;  
+}
+
+#thisSquare{
+    margin-left:90px;
+}
+
+
